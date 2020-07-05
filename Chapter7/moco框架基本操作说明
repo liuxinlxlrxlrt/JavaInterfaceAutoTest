@@ -1,0 +1,4 @@
+# -p 端口号，-c json文件(路径，可以相对路径，可绝对路径ll)
+启动：java -jar ./moco-runner-0.11.0-standalone.jar servertype -p 8888 -c json配置文件
+
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c startup1.json
