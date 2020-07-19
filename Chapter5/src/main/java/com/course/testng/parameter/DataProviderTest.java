@@ -11,6 +11,7 @@ public class DataProviderTest {
     public void dataProviderTest(String name,int age) {
         System.out.println("name = "+ name+"，age = "+age);
     }
+
     @DataProvider(name = "data")
     public Object[][] providerData(){
         Object[][] obj = new Object[][]{
