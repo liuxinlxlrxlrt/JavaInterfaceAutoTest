@@ -14,7 +14,7 @@ import org.testng.xml.XmlSuite;
 import java.io.File;
 import java.util.*;
 
-public class ExtentTestNGReporterListener implements IReporter {
+public class ExtentTestNGIReporterListener implements IReporter {
 
     static Date date = new Date();
     static String form = String.format("%tF", date);
