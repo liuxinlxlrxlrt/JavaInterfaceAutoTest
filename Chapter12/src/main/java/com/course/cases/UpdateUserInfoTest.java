@@ -10,14 +10,14 @@ public class UpdateUserInfoTest {
     @Test(dependsOnGroups = "loginTrue",description = "更新用户信息")
     public void updateUserInfo(){
         SqlSession session = DatabaseUtil.getSqlSession();
-        UpdateUserInfoCase updateUserInfoCase= session.selectOne("updateUserInfoCse",1);
+        UpdateUserInfoCase updateUserInfoCase= session.selectOne("updateUserInfoCase",1);
         System.out.println(updateUserInfoCase.toString());
         System.out.println(TestConfig.updateUserInfoUrl);
     }
     @Test(dependsOnGroups = "loginTrue",description = "删除用户信息")
     public void deleteUser(){
         SqlSession session = DatabaseUtil.getSqlSession();
-        UpdateUserInfoCase updateUserInfoCase= session.selectOne("updateUserInfoCse",2);
+        UpdateUserInfoCase updateUserInfoCase= session.selectOne("updateUserInfoCase",2);
         System.out.println(updateUserInfoCase.toString());
         System.out.println(TestConfig.updateUserInfoUrl);
     }
