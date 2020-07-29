@@ -15,15 +15,16 @@
                     <include name="addUser"/>
                 </methods>
             </class>
-            <class name="com.course.cases.GetUserInfoTest">
-                <methods>
-                    <include name="getUserInfo"/>
-                </methods>
-            </class>
+
             <class name="com.course.cases.UpdateUserInfoTest">
                 <methods>
                     <include name="updateUserInfo"/>
                     <include name="deleteUser"/>
+                </methods>
+            </class>
+            <class name="com.course.cases.GetUserInfoTest">
+                <methods>
+                    <include name="getUserInfo"/>
                 </methods>
             </class>
             <class name="com.course.cases.GetUserInfoListTest">
@@ -31,6 +32,7 @@
                     <include name="getUserListInfo"/>
                 </methods>
             </class>
+
         </classes>
     </test>
     <listeners>
