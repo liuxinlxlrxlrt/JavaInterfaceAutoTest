@@ -13,8 +13,6 @@ import org.json.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import java.io.IOException;
-
 public class addUserTest {
     @Test(dependsOnGroups = "loginTrue",description = "添加用户接口测试")
     public void addUser(){
@@ -43,18 +41,19 @@ public class addUserTest {
             e.printStackTrace();
         }
         //addUserCase随着user被执行
-        User user = session.selectOne("addUser",addUserCase);
-//        System.out.println("user："+user.toString());
+//        User user = session.selectOne("addUser",addUserCase);
+//        System.out.println(user);
         Assert.assertEquals(addUserCase.getExpected(),result);
 
-        AddUserCase addUserCase1 = session.selectOne("addUserCase",1);
-
-        int deleteUser = session.delete("deleteUser",addUserCase1);
-        System.out.println("deleteUser："+deleteUser);
-
-
-
-
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        //删除新增加的用户数据
+        int num = session.delete("deleteUserCase",addUserCase);
+        session.commit();
+        System.out.println("num："+num);
     }
 
     private String getResult(AddUserCase addUserCase) throws Exception {
