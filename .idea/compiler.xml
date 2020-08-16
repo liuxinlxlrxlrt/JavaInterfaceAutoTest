@@ -18,13 +18,24 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Chapter10" target="8" />
-      <module name="Chapter11" target="1.5" />
-      <module name="Chapter12" target="1.5" />
-      <module name="Chapter13" target="1.6" />
-      <module name="Chapter5" target="1.5" />
-      <module name="Chapter6" target="1.5" />
-      <module name="Chapter9" target="1.5" />
-      <module name="JavaInterfaceAutoTest" target="1.5" />
+      <module name="Chapter11" target="1.8" />
+      <module name="Chapter12" target="1.8" />
+      <module name="Chapter13" target="1.8" />
+      <module name="Chapter5" target="1.8" />
+      <module name="Chapter6" target="1.8" />
+      <module name="Chapter9" target="1.8" />
+      <module name="JavaInterfaceAutoTest" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Chapter10" options="-parameters" />
+      <module name="Chapter11" options="-parameters" />
+      <module name="Chapter12" options="-parameters" />
+      <module name="Chapter13" options="-extdirs #{project.basedir}/lib" />
+      <module name="Chapter5" options="-parameters" />
+      <module name="Chapter6" options="-parameters" />
+      <module name="Chapter9" options="-parameters" />
+    </option>
   </component>
 </project>
