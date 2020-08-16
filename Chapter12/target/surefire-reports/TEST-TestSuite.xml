@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="9.479" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="16.041" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="CN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\86159\AppData\Local\Temp\surefire4500126544062366875\surefirebooter135605153621630452.jar C:\Users\86159\AppData\Local\Temp\surefire4500126544062366875 2020-08-16T19-33-47_761-jvmRun1 surefire1414956029602040104tmp surefire_02668714689241169977tmp"/>
+    <property name="sun.java.command" value="C:\Users\86159\AppData\Local\Temp\surefire3684426781142625820\surefirebooter6613060262867946175.jar C:\Users\86159\AppData\Local\Temp\surefire3684426781142625820 2020-08-16T19-38-56_414-jvmRun1 surefire2989203412892358262tmp surefire_0504642480778540081tmp"/>
     <property name="surefire.test.class.path" value="D:\javaCode\21_ProjectStorageFolder\TestNG\JavaInterfaceAutoTest\chapter12\target\test-classes;D:\javaCode\21_ProjectStorageFolder\TestNG\JavaInterfaceAutoTest\chapter12\target\classes;D:\360Downloads\Software\Maven\repository\org\apache\httpcomponents\httpclient\4.1.2\httpclient-4.1.2.jar;D:\360Downloads\Software\Maven\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;D:\360Downloads\Software\Maven\repository\commons-codec\commons-codec\1.14\commons-codec-1.14.jar;D:\360Downloads\Software\Maven\repository\org\json\json\20170516\json-20170516.jar;D:\360Downloads\Software\Maven\repository\org\mybatis\mybatis\3.4.6\mybatis-3.4.6.jar;D:\360Downloads\Software\Maven\repository\mysql\mysql-connector-java\5.1.6\mysql-connector-java-5.1.6.jar;D:\360Downloads\Software\Maven\repository\org\projectlombok\lombok\1.16.14\lombok-1.16.14.jar;D:\360Downloads\Software\Maven\repository\com\relevantcodes\extentreports\2.41.1\extentreports-2.41.1.jar;D:\360Downloads\Software\Maven\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;D:\360Downloads\Software\Maven\repository\org\xerial\sqlite-jdbc\3.31.1\sqlite-jdbc-3.31.1.jar;D:\360Downloads\Software\Maven\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;D:\360Downloads\Software\Maven\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;D:\360Downloads\Software\Maven\repository\org\mongodb\bson\4.0.3\bson-4.0.3.jar;D:\360Downloads\Software\Maven\repository\org\mongodb\mongodb-driver-core\4.0.3\mongodb-driver-core-4.0.3.jar;D:\360Downloads\Software\Maven\repository\com\aventstack\extentreports\3.0.6\extentreports-3.0.6.jar;D:\360Downloads\Software\Maven\repository\org\apache\httpcomponents\httpmime\4.5.12\httpmime-4.5.12.jar;D:\360Downloads\Software\Maven\repository\com\vimalselvam\testng-extentsreport\1.3.1\testng-extentsreport-1.3.1.jar;D:\360Downloads\Software\Maven\repository\com\google\guava\guava\20.0\guava-20.0.jar;D:\360Downloads\Software\Maven\repository\org\testng\testng\6.10\testng-6.10.jar;D:\360Downloads\Software\Maven\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;D:\360Downloads\Software\Maven\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\360Downloads\Software\Maven\repository\junit\junit\4.12\junit-4.12.jar;D:\360Downloads\Software\Maven\repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar;D:\360Downloads\Software\Maven\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\86159"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\86159\AppData\Local\Temp\surefire4500126544062366875\surefirebooter135605153621630452.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\86159\AppData\Local\Temp\surefire3684426781142625820\surefirebooter6613060262867946175.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,8 +60,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="loginTrue" classname="com.course.cases.LoginTest" time="1.406"/>
-  <testcase name="loginFalse" classname="com.course.cases.LoginTest" time="0.063"/>
-  <testcase name="updateUserInfo" classname="com.course.cases.UpdateUserInfoTest" time="3.096"/>
-  <testcase name="deleteUser" classname="com.course.cases.UpdateUserInfoTest" time="3.069"/>
+  <testcase name="loginTrue" classname="com.course.cases.LoginTest" time="1.486"/>
+  <testcase name="loginFalse" classname="com.course.cases.LoginTest" time="0.067"/>
+  <testcase name="addUser" classname="com.course.cases.addUserTest" time="6.073"/>
+  <testcase name="updateUserInfo" classname="com.course.cases.UpdateUserInfoTest" time="3.13"/>
+  <testcase name="deleteUser" classname="com.course.cases.UpdateUserInfoTest" time="3.058"/>
+  <testcase name="getUserInfo" classname="com.course.cases.GetUserInfoTest" time="0.067"/>
+  <testcase name="getUserListInfo" classname="com.course.cases.GetUserInfoListTest" time="0.659"/>
 </testsuite>
