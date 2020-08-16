@@ -42,10 +42,17 @@ public class addUserTest {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+        //addUserCase随着user被执行
         User user = session.selectOne("addUser",addUserCase);
+//        System.out.println("user："+user.toString());
+        Assert.assertEquals(addUserCase.getExpected(),result);
 
-//        System.out.println("user："user.toString());
-//        Assert.assertEquals(addUserCase.getExpected(),result);
+        AddUserCase addUserCase1 = session.selectOne("addUserCase",1);
+
+        int deleteUser = session.delete("deleteUser",addUserCase1);
+        System.out.println("deleteUser："+deleteUser);
+
+
 
 
     }

@@ -24,13 +24,14 @@ public class UpdateUserInfoTest {
         System.out.println(TestConfig.updateUserInfoUrl);
 
         int result = getResult(updateUserInfoCase);
-        System.out.println(result);
+        System.out.println("updateUserInfoCase “ 1 ”result="+result);
         try {
             Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
         User user = session.selectOne(updateUserInfoCase.getExpected(),updateUserInfoCase);
+        System.out.println("user 1 ="+user.toString());
 
         Assert.assertNotNull(user);
         Assert.assertNotNull(result);
@@ -45,13 +46,14 @@ public class UpdateUserInfoTest {
         System.out.println(TestConfig.updateUserInfoUrl);
 
         int result = getResult(updateUserInfoCase);
-        System.out.println("int result："+result);
+        System.out.println("updateUserInfoCase “ 2 ”result="+result);
         try {
             Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
         User user = session.selectOne(updateUserInfoCase.getExpected(),updateUserInfoCase);
+        System.out.println("user 2 ="+user.toString());
 
         Assert.assertNotNull(user);
         Assert.assertNotNull(result);

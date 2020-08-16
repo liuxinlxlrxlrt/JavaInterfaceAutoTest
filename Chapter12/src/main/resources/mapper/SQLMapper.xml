@@ -11,6 +11,9 @@
     <select id="addUserCase" parameterType="Integer" resultType="com.course.model.AddUserCase">
         select * from addusercase where id=#{id};
     </select>
+    <select id="deleteUser" parameterType="com.course.model.AddUserCase" resultType="Integer">
+        delete from user where userName=#{userName};
+    </select>
     <!--获取用户信息case-->
     <select id="getUserInfoCase" parameterType="Integer" resultType="com.course.model.GetUserInfoCase">
         select * from getuserinfocase where id=#{id};

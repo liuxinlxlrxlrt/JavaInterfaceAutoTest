@@ -8,7 +8,6 @@ import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.util.EntityUtils;
-import org.apache.ibatis.jdbc.Null;
 import org.apache.ibatis.session.SqlSession;
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -25,17 +24,17 @@ public class GetUserInfoTest {
     public void getUserInfo(){
         SqlSession session = DatabaseUtil.getSqlSession();
         GetUserInfoCase getUserInfoCase = session.selectOne("getUserInfoCase",1);
-        System.out.println(getUserInfoCase.toString());
-        System.out.println(TestConfig.getUserInfoUrl);
+//        System.out.println(getUserInfoCase.toString());
+//        System.out.println(TestConfig.getUserInfoUrl);
 
         JSONArray resultJson = getJsonResult(getUserInfoCase);
-        System.out.println("resultJson："+resultJson.toString());
+//        System.out.println("resultJson："+resultJson.toString());
 
         User user =session.selectOne(getUserInfoCase.getExpected(),getUserInfoCase);
         List userList = new ArrayList();
         userList.add(user);
         JSONArray jsonArray = new JSONArray(userList);
-        System.out.println("jsonArray："+jsonArray.toString());
+//        System.out.println("jsonArray："+jsonArray.toString());
         //错误的原因是实际数组和期望数组的结果不一样
         //解决版本：拿出数组的值分别对比
         //Assert.assertEquals(int expected, int actual)为例:

@@ -34,6 +34,7 @@ public class LoginTest {
 
         TestConfig.defaultHttpClient = new DefaultHttpClient();
     }
+
     @Test(groups = "loginTrue",description = "用户邓丽成功接口测试")
     public void loginTrue(){
         SqlSession session = DatabaseUtil.getSqlSession();
