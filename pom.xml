@@ -50,7 +50,7 @@
 
     <!--全局变量声明，可以声明版本号-->
     <properties>
-            <junit.version>4.12</junit.version>
+            <junit.version>4.13.1</junit.version>
     </properties>
 
     <dependencies>
